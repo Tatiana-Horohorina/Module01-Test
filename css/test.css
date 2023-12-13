@@ -35,6 +35,9 @@ ul {
     padding-left: 0;
     margin: 0;
 }
+ul > li:last-child{
+    margin-right: 0;
+}
 ul > li {
     margin-right: 30px;
 }
@@ -53,6 +56,12 @@ a{
     margin-bottom: 30px;
     gap: 20px;
     border-bottom: 1px solid #000;
+}
+.link{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
 }
 .aside {
     background-color: lavender;
